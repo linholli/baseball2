@@ -1,0 +1,51 @@
+.navbar-vertical.navbar-expand-xs {
+    max-width: 12rem !important;
+}
+.navbar-vertical.navbar-expand-xs .navbar-collapse {
+    height: calc(100vh - 200px) !important;
+}
+
+@media (min-width: 576px) {
+    .navbar-vertical.navbar-expand-xs .navbar-collapse {
+        height: calc(100vh - 200px) !important;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-vertical.navbar-expand-xs .navbar-collapse {
+        height: calc(100vh - 200px) !important;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-vertical.navbar-expand-xs .navbar-collapse {
+        height: calc(100vh - 200px) !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sidenav.fixed-start + .main-content {
+        margin-left: 13.125rem;
+    }
+    .navbar-vertical.navbar-expand-xs .navbar-collapse {
+        height: calc(100vh - 200px) !important;
+    }
+}
+@media (min-width: 1400px) {
+    .navbar-vertical.navbar-expand-xs .navbar-collapse {
+        height: calc(100vh - 200px) !important;
+    }
+}
+
+.btn {
+    margin-bottom: 0;
+    padding: 0.625rem;
+}
+.btn.btn-sm i {
+    font-size: 1.2rem;
+}
+.form-control {
+    background-color: #eee;
+}
+
+.form-control:focus {
+    background-color: #fff;
+}
